@@ -1,0 +1,3 @@
+echo "hello world"
+# must make note to use chmod 755 [scriptname] to 
+# execute scripts

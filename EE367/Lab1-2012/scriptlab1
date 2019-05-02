@@ -1,0 +1,25 @@
+# scritlab1
+# script to sum the 
+
+make sum
+
+./sum Data/datafile-0 >> lab1bresults
+
+./sum Data/datafile-1 >> lab1bresults
+
+./sum Data/datafile-2 >> lab1bresults
+
+./sum Data/datafile-3 >> lab1bresults
+
+./sum Data/datafile-4 >> lab1bresults
+
+./sum Data/datafile-5 >> lab1bresults
+
+./sum Data/datafile-6 >> lab1bresults
+
+./sum Data/datafile-7 >> lab1bresults
+
+./sum Data/datafile-8 >> lab1bresults
+
+./sum Data/datafile-9 >> lab1bresults
+
