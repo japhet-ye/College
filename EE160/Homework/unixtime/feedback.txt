@@ -1,0 +1,11 @@
+Feedback.txt
+Japhet Ye
+JSsquared
+
+I learned about how tedious it is to deal with 
+time and how complicated us humans can get when tryong to calculate a simple thing such as the time of dat it is. I am fascinated by all the systems that is dependant on this simple system and how diferent parties want different results. Such as the creation of leap seconds. If we ignored leap seconds, our clocks on earth would be slower than the astronomical clock which calculates time in relation to distant stars. That information is fascinating and I really enjoyed researching where this system came to be and its uses in everyday life and machines. 
+
+At first we had our own part of the project, but until one of our teammates seemed to have dissapeared for unknown easons and the deadline was fast approaching, each of us did our own version of the each part. Sam did all of them first, but during the lab, I was able to complete my versions of the assaignment. In the end I turned in my versions. They do work since I gave my own twist to Sam's algorithm and I have assured him that the code works. I was going to do the extra credit but certain time restraint and other responsibilities arised and I had to cancel on the part. Sam did do his part and has excellent communication skills and he fulfilled his part of the homework.
+
+How often does the Unicode Consortium meet and what kind of programmer are on the Consortium's panel?
+

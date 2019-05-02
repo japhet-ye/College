@@ -1,0 +1,5 @@
+Alice,Wright 90 80 70 60 50 40 30
+Bob,Dylan 100 80 90 30 20 12 30
+Jake,Ho 80 90 10 30 40 20 80
+Brittany,Harper 10 10 10 10 10 10 10
+Derek,Killian 20 20 20 20 20 20 20 

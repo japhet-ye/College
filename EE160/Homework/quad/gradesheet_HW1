@@ -1,0 +1,73 @@
+TEAM: J squared
+Gradesheet for Lab HW1
+
+15/15 compiles
+    Deudcutions:
+    Comments:
+
+15/15 runs
+    Deductions:
+    Comments:
+
+16/30 works correctly
+    Deductions:
+        2 bad tabbing -- see code for correction
+        
+        3 output not written to file
+        
+        3 real roots case missed -- see code for correction
+        
+        5 no solution case not handled at all (a=b=0)
+        
+        1 complex roots not formatted nicely
+            -actually compute the real and imaginary parts
+            -or format it better, don't just mash nubmers together
+        
+    Comments:
+        consider using elses
+        
+        tab your code so it's easy to see the blocks
+        Also, you actaully have to put in returns when vi pops you down one line
+        if you're typing too much
+        
+        for linear answers, it'd be better to leave second root blank rather than
+        0
+    
+5/5  names in files
+    Deductions:
+    Comments: 
+        it'd be good to put your actual name and date too
+
+5/5  code commented
+    Deductions:
+    Comments:    
+
+8/10 hand calculations
+    Deductions:
+        2 didn't do complex or single root(i.e. linear) examples
+    Comments:
+        a text file would of been apreciated
+        
+        also turn in the files together as per the instructions
+    
+5/10 results from code
+    Deductions:
+        1 hard to read
+        2 not enough examples
+            -supposed to be 10, only 5 were done
+        2 only tested 2 real roots
+    Comments:
+        I'm not sure how this code was generated
+    
+        also turn in the files together as per the instructions
+    
+5/10 commentary
+    Deductions:
+        5 no algorithm
+    Comments:
+        I'll give you points for this, but it's a little strange as it's
+        incorporated into your individual commentaries as well. There should be
+        a specific team commentary and then individual commentaries
+
+---
+TOTAL: 69/100

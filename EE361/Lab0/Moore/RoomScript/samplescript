@@ -1,0 +1,24 @@
+#!/bin/csh
+# First line specifies the shell program to use but
+# subsequent lines with "#" are comments
+set testvar=555 # created a variable called "testvar"
+#SECONDS = 0
+#start = $SECONDS
+echo $testvar      
+# Example alias
+alias testalias echo Alias works!
+set history = 50
+echo $history
+set history = 10
+echo $history
+echo $path
+gcc test.c
+./a.out
+history
+testalias
+rm a.out
+echo Removing tempoary .out file!
+sleep 30s
+#duration = $((SECONDS - start))
+echo Exiting samplescript
+

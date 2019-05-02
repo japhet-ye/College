@@ -1,0 +1,6 @@
+Japhet Ye
+response.txt
+
+	I learned how infinite for and while loops are used and the problems with scanf when scanning in a character and using a clear function to clear out the buffer when scanning in a character.
+	I contributed to the project by making the algorithm and coding moust of the main. My partner did do the functions, but how the algorithm I came up with ,I needed to redo the functions she gave us to work with arrays rather than a pointer to an array, and seperating the files into the main and a driver with the appropriate header.
+	Is there a function "clear()" in a library that already clears out the buffer when scanning in for a character?

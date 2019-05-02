@@ -1,0 +1,5 @@
+cart
+car
+cat
+cane
+care

@@ -1,0 +1,20 @@
+main
+	prompt user to enter two numbers
+	if start == stop
+		return 0;
+	if start != stop
+		call temptable
+
+temptable
+	converts starting temp to Celcius by calling tempcon
+	while x != stop
+		adds 5 to starting temp
+		converts to celcius
+		adds 1 to counter 
+	if x == stop
+		print counter
+		return to main (return 1;)
+		
+	
+tempcon
+	converts temperatures from farenheit to celcius

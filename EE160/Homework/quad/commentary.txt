@@ -1,0 +1,13 @@
+Japhet Ye
+J Squared
+Commentary for Homework 1
+
+
+
+
+
+Japhet Ye
+Commentary For Assignment 1
+J Squared
+
+This coding expereince has given many valuable lessons on teamwork, coding, and problem solving. For the most part, our code "works". Although the input reading cannot read negative numbers, which is essential since the only "real" answers will have a or c as a negative value. I really do not know how to solve this problem becuase it is too late to solve the problem, although I suspect that the problem is in the syntax, or is an inherit problem from the fscanf function. I contributed a lot, actually. I suspect that it is due to myself actually. I did the user input code and tested it, and I did the final version of the code that was turned in. I myself came up with the algorithm and did al the debugging for both codes. Jin mainly did the hand calculations and testing the test code, which was already tested by me with all the possible scenario's. I have observed that Jin does have problems coding and debugging what is wrong with his code and I do see this in the labs as he has asked me and Jeremy many times for help. I also have observed that his code is not pretty (i.e it is pretty hard to read). I do make an effort myself to make sure that my code looks like proper code, and someitimes some debug actions(particularly long debug actions such as multiple printf's and loop checking) just get commentted out and big chunks of my code are seperated. I should proably work on my teamwork skills and the distibution of labor because I do tend to work by myself so I am used to doing many big tasks like this alone. If I am put into a team, if my partner(s) are having trouble with anything, and it is taking too long to fix, I end up scarificing much of my time devoted to doing their task myself and fixing it and the project does get done on scheduele when I do this. This is different from a team where everyone is at an equal skill level and does their part sufficiently enough so that no one takes over anyone elses part ( although switiching tasks is common place in groups like this). This, I need to work on and incoroporate my team into the project more. And one question I have is how do you get the fscanf function to read negative numbers.

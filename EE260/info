@@ -1,0 +1,72 @@
+
+
+
+                  Questions To Be Answered
+NOTE: the following questions will be read by a program.  Please enter
+the information on a seperate line following each question.  These
+questions will give me some information about you to set up the
+grading data base and also to help me assign you to your team.
+
+
+On the following line, enter your name (Last, First):
+Ye, Japhet
+
+On the following line, enter the lab section you are in (001, 002 or 003):
+001
+
+On the following line, enter your wiliki login id:
+japhetye
+
+On the following line, enter the last 4 digits of your UH ID number:
+9935
+
+On the following line, tell me what name you prefer going by:
+Japhet
+
+On the following line, enter your major (EE,CENG, etc.):
+CENG
+
+On the following line, enter your class standing (Fr, So, Jr, Sr, etc.):
+So
+
+On the following line, enter your overall GPA:
+3.47
+
+On the following line, enter your grade from EE 160:
+A+
+
+On the following line, state whether you dorm, commute from nearby, or
+commute from far away:
+dorm
+
+Enter the results of your learning style questionaire
+exactly as shown on the results page on the following line:
+Reflective(1) / Intuitive(1) / Visual(7) / Sequential(3)
+
+IF you could list one person in the class you would liek to have on your
+team, who would that be? (no guarentees):
+Alicia Leong
+
+
+You may answer the following optional questions by adding as many
+lines as you need (this additional information can help me make
+the team assignments):
+
+(1)  Have you had any experience with computers before (hardware
+or software)?   If so, what machines?
+
+(2)  Do you have a laptop you bring/can bring to class?  If so, what kind?
+yes an old laptop form 2003 whose processor's archietecture is so old that I cannot run VMware
+
+(3)  What other classes are you taking this semester?
+MATH244,PHYS274,EE213,PHYS272L,EE296(Sasaki)
+
+(4)  Have you worked on a team in classes before? If so, how was the experience
+for you?
+Yes, in EE160. I had a troublesome teammate who was notorious in lecture for being loud and kind of rude. My old team member dropped the class 
+and I was put in a group with said troublesome student. I did my best not to cause conflict and to work with him on completeing the homework.
+In the end it was an ok experience.
+(5)  Why are you taking this course? (just briefly).
+It's required
+(6)  What do you expect to get from this course?
+To design a new chip archietecture that I can sell to intel and call it the i9+
