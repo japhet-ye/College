@@ -1,0 +1,169 @@
+\begin{theindex}
+
+  \item {Cashier}, \hyperpage{17}
+    \subitem {serve\_customer}, \hyperpage{18}
+  \item {Catch::AssertionHandler}, \hyperpage{14}
+  \item {Catch::AssertionInfo}, \hyperpage{15}
+  \item {Catch::AssertionReaction}, \hyperpage{15}
+  \item {Catch::AutoReg}, \hyperpage{15}
+  \item {Catch::BenchmarkLooper}, \hyperpage{16}
+  \item {Catch::BinaryExpr$<$ LhsT, RhsT $>$}, \hyperpage{16}
+  \item {Catch::CaseSensitive}, \hyperpage{17}
+  \item {Catch::Counts}, \hyperpage{22}
+  \item {Catch::Decomposer}, \hyperpage{24}
+  \item {Catch::Detail::Approx}, \hyperpage{13}
+  \item {Catch::Detail::IsStreamInsertable$<$ T $>$}, \hyperpage{29}
+  \item {Catch::ExceptionTranslatorRegistrar}, \hyperpage{26}
+  \item {Catch::ExprLhs$<$ LhsT $>$}, \hyperpage{26}
+  \item {Catch::IExceptionTranslator}, \hyperpage{27}
+  \item {Catch::IExceptionTranslatorRegistry}, \hyperpage{27}
+  \item {Catch::IMutableRegistryHub}, \hyperpage{27}
+  \item {Catch::IRegistryHub}, \hyperpage{28}
+  \item {Catch::IResultCapture}, \hyperpage{28}
+  \item {Catch::IRunner}, \hyperpage{29}
+  \item {Catch::is\_range$<$ T $>$}, \hyperpage{29}
+    \subitem {value}, \hyperpage{29}
+  \item {Catch::IStream}, \hyperpage{30}
+  \item {Catch::ITestCaseRegistry}, \hyperpage{30}
+  \item {Catch::ITestInvoker}, \hyperpage{30}
+  \item {Catch::ITransientExpression}, \hyperpage{31}
+  \item {Catch::LazyExpression}, \hyperpage{32}
+  \item {Catch::Matchers::Floating::WithinAbsMatcher}, \hyperpage{61}
+  \item {Catch::Matchers::Floating::WithinUlpsMatcher}, \hyperpage{61}
+  \item {Catch::Matchers::Impl::MatchAllOf$<$ ArgT $>$}, \hyperpage{33}
+  \item {Catch::Matchers::Impl::MatchAnyOf$<$ ArgT $>$}, \hyperpage{34}
+  \item {Catch::Matchers::Impl::MatcherBase$<$ T $>$}, \hyperpage{34}
+  \item {Catch::Matchers::Impl::MatcherMethod$<$ ObjectT $>$}, 
+		\hyperpage{35}
+  \item {Catch::Matchers::Impl::MatcherMethod$<$ PtrT $\ast$ $>$}, 
+		\hyperpage{35}
+  \item {Catch::Matchers::Impl::MatcherUntypedBase}, \hyperpage{36}
+  \item {Catch::Matchers::Impl::MatchNotOf$<$ ArgT $>$}, \hyperpage{37}
+  \item {Catch::Matchers::StdString::CasedString}, \hyperpage{16}
+  \item {Catch::Matchers::StdString::ContainsMatcher}, \hyperpage{19}
+  \item {Catch::Matchers::StdString::EndsWithMatcher}, \hyperpage{24}
+  \item {Catch::Matchers::StdString::EqualsMatcher}, \hyperpage{25}
+  \item {Catch::Matchers::StdString::RegexMatcher}, \hyperpage{41}
+  \item {Catch::Matchers::StdString::StartsWithMatcher}, \hyperpage{46}
+  \item {Catch::Matchers::StdString::StringMatcherBase}, \hyperpage{54}
+  \item {Catch::Matchers::Vector::ContainsElementMatcher$<$ T $>$}, 
+		\hyperpage{19}
+  \item {Catch::Matchers::Vector::ContainsMatcher$<$ T $>$}, 
+		\hyperpage{20}
+  \item {Catch::Matchers::Vector::EqualsMatcher$<$ T $>$}, 
+		\hyperpage{25}
+  \item {Catch::Matchers::Vector::UnorderedEqualsMatcher$<$ T $>$}, 
+		\hyperpage{60}
+  \item {Catch::MatchExpr$<$ ArgT, MatcherT $>$}, \hyperpage{36}
+  \item {Catch::MessageBuilder}, \hyperpage{38}
+  \item {Catch::MessageInfo}, \hyperpage{38}
+  \item {Catch::MessageStream}, \hyperpage{39}
+  \item {Catch::NameAndTags}, \hyperpage{39}
+  \item {Catch::NonCopyable}, \hyperpage{40}
+  \item {Catch::not\_this\_one}, \hyperpage{40}
+  \item {Catch::pluralise}, \hyperpage{41}
+  \item {Catch::RegistrarForTagAliases}, \hyperpage{42}
+  \item {Catch::ResultDisposition}, \hyperpage{42}
+  \item {Catch::ResultWas}, \hyperpage{42}
+  \item {Catch::ReusableStringStream}, \hyperpage{43}
+  \item {Catch::ScopedMessage}, \hyperpage{43}
+  \item {Catch::Section}, \hyperpage{44}
+  \item {Catch::SectionEndInfo}, \hyperpage{44}
+  \item {Catch::SectionInfo}, \hyperpage{45}
+  \item {Catch::SourceLineInfo}, \hyperpage{45}
+  \item {Catch::StreamEndStop}, \hyperpage{46}
+  \item {Catch::StringMaker$<$ bool $>$}, \hyperpage{47}
+  \item {Catch::StringMaker$<$ Catch::Detail::Approx $>$}, 
+		\hyperpage{47}
+  \item {Catch::StringMaker$<$ char $>$}, \hyperpage{48}
+  \item {Catch::StringMaker$<$ char $\ast$ $>$}, \hyperpage{48}
+  \item {Catch::StringMaker$<$ char const $\ast$ $>$}, \hyperpage{48}
+  \item {Catch::StringMaker$<$ char[SZ]$>$}, \hyperpage{48}
+  \item {Catch::StringMaker$<$ double $>$}, \hyperpage{49}
+  \item {Catch::StringMaker$<$ float $>$}, \hyperpage{49}
+  \item {Catch::StringMaker$<$ int $>$}, \hyperpage{49}
+  \item {Catch::StringMaker$<$ long $>$}, \hyperpage{49}
+  \item {Catch::StringMaker$<$ long long $>$}, \hyperpage{50}
+  \item {Catch::StringMaker$<$ R C::$\ast$ $>$}, \hyperpage{50}
+  \item {Catch::StringMaker$<$ R, typename std::enable\_if$<$ is\_range$<$ R $>$::value \&\&!::Catch::Detail::IsStreamInsertable$<$ R $>$::value $>$::type $>$}, 
+		\hyperpage{50}
+  \item {Catch::StringMaker$<$ signed char $>$}, \hyperpage{51}
+  \item {Catch::StringMaker$<$ signed char[SZ]$>$}, \hyperpage{51}
+  \item {Catch::StringMaker$<$ std::nullptr\_t $>$}, \hyperpage{51}
+  \item {Catch::StringMaker$<$ std::string $>$}, \hyperpage{51}
+  \item {Catch::StringMaker$<$ std::wstring $>$}, \hyperpage{52}
+  \item {Catch::StringMaker$<$ T $\ast$ $>$}, \hyperpage{52}
+  \item {Catch::StringMaker$<$ T, typename $>$}, \hyperpage{47}
+  \item {Catch::StringMaker$<$ T[SZ]$>$}, \hyperpage{52}
+  \item {Catch::StringMaker$<$ unsigned char $>$}, \hyperpage{52}
+  \item {Catch::StringMaker$<$ unsigned char[SZ]$>$}, \hyperpage{53}
+  \item {Catch::StringMaker$<$ unsigned int $>$}, \hyperpage{53}
+  \item {Catch::StringMaker$<$ unsigned long $>$}, \hyperpage{53}
+  \item {Catch::StringMaker$<$ unsigned long long $>$}, \hyperpage{53}
+  \item {Catch::StringMaker$<$ wchar\_t $\ast$ $>$}, \hyperpage{54}
+  \item {Catch::StringMaker$<$ wchar\_t const $\ast$ $>$}, 
+		\hyperpage{54}
+  \item {Catch::StringRef}, \hyperpage{55}
+  \item {Catch::TestCase}, \hyperpage{57}
+  \item {Catch::TestCaseInfo}, \hyperpage{57}
+  \item {Catch::TestFailureException}, \hyperpage{58}
+  \item {Catch::TestInvokerAsMethod$<$ C $>$}, \hyperpage{59}
+  \item {Catch::Timer}, \hyperpage{59}
+  \item {Catch::Totals}, \hyperpage{59}
+  \item {Catch::UnaryExpr$<$ LhsT $>$}, \hyperpage{60}
+  \item {Catch\_global\_namespace\_dummy}, \hyperpage{18}
+  \item {charge\_money}
+    \subitem {Customer}, \hyperpage{23}
+  \item {Cook}, \hyperpage{21}
+    \subitem {prepare\_dish}, \hyperpage{21}
+  \item {Customer}, \hyperpage{22}
+    \subitem {charge\_money}, \hyperpage{23}
+    \subitem {expel}, \hyperpage{23}
+    \subitem {get\_order}, \hyperpage{23}
+    \subitem {refund\_money}, \hyperpage{23}
+
+  \indexspace
+
+  \item {expel}
+    \subitem {Customer}, \hyperpage{23}
+
+  \indexspace
+
+  \item {get\_ingredients}
+    \subitem {SupplyRunner}, \hyperpage{56}
+  \item {get\_order}
+    \subitem {Customer}, \hyperpage{23}
+
+  \indexspace
+
+  \item {Kitchen}, \hyperpage{31}
+    \subitem {prepare\_dish}, \hyperpage{32}
+
+  \indexspace
+
+  \item {Order}, \hyperpage{40}
+
+  \indexspace
+
+  \item {prepare\_dish}
+    \subitem {Cook}, \hyperpage{21}
+    \subitem {Kitchen}, \hyperpage{32}
+
+  \indexspace
+
+  \item {refund\_money}
+    \subitem {Customer}, \hyperpage{23}
+
+  \indexspace
+
+  \item {serve\_customer}
+    \subitem {Cashier}, \hyperpage{18}
+  \item {SupplyRunner}, \hyperpage{56}
+    \subitem {get\_ingredients}, \hyperpage{56}
+
+  \indexspace
+
+  \item {value}
+    \subitem {Catch::is\_range$<$ T $>$}, \hyperpage{29}
+
+\end{theindex}

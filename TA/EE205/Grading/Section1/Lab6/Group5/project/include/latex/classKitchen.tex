@@ -1,0 +1,48 @@
+\hypertarget{classKitchen}{}\doxysection{Kitchen Class Reference}
+\label{classKitchen}\index{Kitchen@{Kitchen}}
+
+
+A \mbox{\hyperlink{classKitchen}{Kitchen}} that can be used to prepare Dish objects by providing them a moved-\/map of ingredients.  
+
+
+
+
+{\ttfamily \#include $<$Kitchen.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Dish \mbox{\hyperlink{classKitchen_aaaa4abc7bd9982085c161c01042653c2}{prepare\+\_\+dish}} (Ingredient\+Map \&\&ingredients)
+\begin{DoxyCompactList}\small\item\em Consumes the map of ingredients (std\+::string) and returns the corresponding Dish. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{classKitchen}{Kitchen}} that can be used to prepare Dish objects by providing them a moved-\/map of ingredients. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classKitchen_aaaa4abc7bd9982085c161c01042653c2}\label{classKitchen_aaaa4abc7bd9982085c161c01042653c2}} 
+\index{Kitchen@{Kitchen}!prepare\_dish@{prepare\_dish}}
+\index{prepare\_dish@{prepare\_dish}!Kitchen@{Kitchen}}
+\doxysubsubsection{\texorpdfstring{prepare\_dish()}{prepare\_dish()}}
+{\footnotesize\ttfamily Dish Kitchen\+::prepare\+\_\+dish (\begin{DoxyParamCaption}\item[{Ingredient\+Map \&\&}]{ingredients }\end{DoxyParamCaption})}
+
+
+
+Consumes the map of ingredients (std\+::string) and returns the corresponding Dish. 
+
+\begin{DoxyNote}{Note}
+This will return Dish\+::\+I\+N\+E\+D\+I\+B\+LE if a map of ingredients that dosn\textquotesingle{}t correspond to a proper dish is given.
+
+You must noticably M\+O\+VE the ingredients in or give it a map literal.
+\end{DoxyNote}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{Ingredient_8hpp_source}{Ingredient.\+hpp}}
+\end{DoxySeeAlso}
+\begin{DoxyNote}{Note}
+Look at the lab manual for more information about the item costs. 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Kitchen.\+hpp\end{DoxyCompactItemize}

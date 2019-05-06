@@ -1,0 +1,70 @@
+\hypertarget{classCashier}{}\doxysection{Cashier Class Reference}
+\label{classCashier}\index{Cashier@{Cashier}}
+
+
+Interacts with Customers, charges them money, and parses their orders.  
+
+
+
+
+{\ttfamily \#include $<$Cashier.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCashier_ae3def4d0d894c7ac624a6035fc0ebc29}\label{classCashier_ae3def4d0d894c7ac624a6035fc0ebc29}} 
+\mbox{\hyperlink{classCashier_ae3def4d0d894c7ac624a6035fc0ebc29}{Cashier}} (double money\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructs the \mbox{\hyperlink{classCashier}{Cashier}} with a set amount of money. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCashier_ac2af1a78c6e6abbf9091cec887e62723}\label{classCashier_ac2af1a78c6e6abbf9091cec887e62723}} 
+double \mbox{\hyperlink{classCashier_ac2af1a78c6e6abbf9091cec887e62723}{get\+\_\+money}} () const
+\begin{DoxyCompactList}\small\item\em Gets the amount of money that the cashier holds. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCashier_a396aad517df14bd1bc068a3691fcd34c}{serve\+\_\+customer}} (std\+::queue$<$ \mbox{\hyperlink{classCustomer}{Customer}} $>$ \&line, std\+::stack$<$ \mbox{\hyperlink{classOrder}{Order}} $>$ \&orders)
+\begin{DoxyCompactList}\small\item\em Serves a customer by taking them off the queue, and possibly putting an order, if valid, onto the order stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interacts with Customers, charges them money, and parses their orders. 
+
+\begin{DoxyNote}{Note}
+Must give each \mbox{\hyperlink{classCustomer}{Customer}} upon interaction a unique ID number, counting up from 0. 
+\end{DoxyNote}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCashier_a396aad517df14bd1bc068a3691fcd34c}\label{classCashier_a396aad517df14bd1bc068a3691fcd34c}} 
+\index{Cashier@{Cashier}!serve\_customer@{serve\_customer}}
+\index{serve\_customer@{serve\_customer}!Cashier@{Cashier}}
+\doxysubsubsection{\texorpdfstring{serve\_customer()}{serve\_customer()}}
+{\footnotesize\ttfamily void Cashier\+::serve\+\_\+customer (\begin{DoxyParamCaption}\item[{std\+::queue$<$ \mbox{\hyperlink{classCustomer}{Customer}} $>$ \&}]{line,  }\item[{std\+::stack$<$ \mbox{\hyperlink{classOrder}{Order}} $>$ \&}]{orders }\end{DoxyParamCaption})}
+
+
+
+Serves a customer by taking them off the queue, and possibly putting an order, if valid, onto the order stack. 
+
+
+\begin{DoxyItemize}
+\item Retrieves the customer from the queue, popping them off.
+\item Receives the customer\textquotesingle{}s desired order items in string format\+:
+
+$<$number-\/of-\/items$>$ $<$name-\/of-\/item-\/with-\/no-\/spaces$>$
+\begin{DoxyItemize}
+\item Multiple items are separated simply by a space
+\end{DoxyItemize}
+\item If the \mbox{\hyperlink{classCashier}{Cashier}} detects an order for an invalid item that is not on the menu, it must expel() the customer.
+\item Must calculate the cost of all the items ordered, and charge the customer.
+\begin{DoxyItemize}
+\item It the customer does not have enough money to pay, do not charge the customer, but instead, expel() them.
+\end{DoxyItemize}
+\item Once paid for, the order items must be consolidated into an \mbox{\hyperlink{classOrder}{Order}}, which is tagged with the unique customer ID generated at the beginning of this function, and then push it onto the stack.
+\end{DoxyItemize}
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classCustomer}{Customer}} 
+
+\mbox{\hyperlink{classOrder}{Order}} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Cashier.\+hpp\end{DoxyCompactItemize}

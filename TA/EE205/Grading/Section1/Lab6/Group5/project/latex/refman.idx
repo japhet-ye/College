@@ -1,0 +1,124 @@
+\indexentry{Catch::Detail::Approx@{Catch::Detail::Approx}|hyperpage}{13}
+\indexentry{Catch::AssertionHandler@{Catch::AssertionHandler}|hyperpage}{14}
+\indexentry{Catch::AssertionInfo@{Catch::AssertionInfo}|hyperpage}{15}
+\indexentry{Catch::AssertionReaction@{Catch::AssertionReaction}|hyperpage}{15}
+\indexentry{Catch::AutoReg@{Catch::AutoReg}|hyperpage}{15}
+\indexentry{Catch::BenchmarkLooper@{Catch::BenchmarkLooper}|hyperpage}{16}
+\indexentry{Catch::BinaryExpr$<$ LhsT, RhsT $>$@{Catch::BinaryExpr$<$ LhsT, RhsT $>$}|hyperpage}{16}
+\indexentry{Catch::Matchers::StdString::CasedString@{Catch::Matchers::StdString::CasedString}|hyperpage}{16}
+\indexentry{Catch::CaseSensitive@{Catch::CaseSensitive}|hyperpage}{17}
+\indexentry{Cashier@{Cashier}|hyperpage}{17}
+\indexentry{Cashier@{Cashier}!serve\_customer@{serve\_customer}|hyperpage}{18}
+\indexentry{serve\_customer@{serve\_customer}!Cashier@{Cashier}|hyperpage}{18}
+\indexentry{Catch\_global\_namespace\_dummy@{Catch\_global\_namespace\_dummy}|hyperpage}{18}
+\indexentry{Catch::Matchers::Vector::ContainsElementMatcher$<$ T $>$@{Catch::Matchers::Vector::ContainsElementMatcher$<$ T $>$}|hyperpage}{19}
+\indexentry{Catch::Matchers::StdString::ContainsMatcher@{Catch::Matchers::StdString::ContainsMatcher}|hyperpage}{19}
+\indexentry{Catch::Matchers::Vector::ContainsMatcher$<$ T $>$@{Catch::Matchers::Vector::ContainsMatcher$<$ T $>$}|hyperpage}{20}
+\indexentry{Cook@{Cook}|hyperpage}{21}
+\indexentry{Cook@{Cook}!prepare\_dish@{prepare\_dish}|hyperpage}{21}
+\indexentry{prepare\_dish@{prepare\_dish}!Cook@{Cook}|hyperpage}{21}
+\indexentry{Catch::Counts@{Catch::Counts}|hyperpage}{22}
+\indexentry{Customer@{Customer}|hyperpage}{22}
+\indexentry{Customer@{Customer}!charge\_money@{charge\_money}|hyperpage}{23}
+\indexentry{charge\_money@{charge\_money}!Customer@{Customer}|hyperpage}{23}
+\indexentry{Customer@{Customer}!expel@{expel}|hyperpage}{23}
+\indexentry{expel@{expel}!Customer@{Customer}|hyperpage}{23}
+\indexentry{Customer@{Customer}!get\_order@{get\_order}|hyperpage}{23}
+\indexentry{get\_order@{get\_order}!Customer@{Customer}|hyperpage}{23}
+\indexentry{Customer@{Customer}!refund\_money@{refund\_money}|hyperpage}{23}
+\indexentry{refund\_money@{refund\_money}!Customer@{Customer}|hyperpage}{23}
+\indexentry{Catch::Decomposer@{Catch::Decomposer}|hyperpage}{24}
+\indexentry{Catch::Matchers::StdString::EndsWithMatcher@{Catch::Matchers::StdString::EndsWithMatcher}|hyperpage}{24}
+\indexentry{Catch::Matchers::StdString::EqualsMatcher@{Catch::Matchers::StdString::EqualsMatcher}|hyperpage}{25}
+\indexentry{Catch::Matchers::Vector::EqualsMatcher$<$ T $>$@{Catch::Matchers::Vector::EqualsMatcher$<$ T $>$}|hyperpage}{25}
+\indexentry{Catch::ExceptionTranslatorRegistrar@{Catch::ExceptionTranslatorRegistrar}|hyperpage}{26}
+\indexentry{Catch::ExprLhs$<$ LhsT $>$@{Catch::ExprLhs$<$ LhsT $>$}|hyperpage}{26}
+\indexentry{Catch::IExceptionTranslator@{Catch::IExceptionTranslator}|hyperpage}{27}
+\indexentry{Catch::IExceptionTranslatorRegistry@{Catch::IExceptionTranslatorRegistry}|hyperpage}{27}
+\indexentry{Catch::IMutableRegistryHub@{Catch::IMutableRegistryHub}|hyperpage}{27}
+\indexentry{Catch::IRegistryHub@{Catch::IRegistryHub}|hyperpage}{28}
+\indexentry{Catch::IResultCapture@{Catch::IResultCapture}|hyperpage}{28}
+\indexentry{Catch::IRunner@{Catch::IRunner}|hyperpage}{29}
+\indexentry{Catch::is\_range$<$ T $>$@{Catch::is\_range$<$ T $>$}|hyperpage}{29}
+\indexentry{Catch::is\_range$<$ T $>$@{Catch::is\_range$<$ T $>$}!value@{value}|hyperpage}{29}
+\indexentry{value@{value}!Catch::is\_range$<$ T $>$@{Catch::is\_range$<$ T $>$}|hyperpage}{29}
+\indexentry{Catch::Detail::IsStreamInsertable$<$ T $>$@{Catch::Detail::IsStreamInsertable$<$ T $>$}|hyperpage}{29}
+\indexentry{Catch::IStream@{Catch::IStream}|hyperpage}{30}
+\indexentry{Catch::ITestCaseRegistry@{Catch::ITestCaseRegistry}|hyperpage}{30}
+\indexentry{Catch::ITestInvoker@{Catch::ITestInvoker}|hyperpage}{30}
+\indexentry{Catch::ITransientExpression@{Catch::ITransientExpression}|hyperpage}{31}
+\indexentry{Kitchen@{Kitchen}|hyperpage}{31}
+\indexentry{Kitchen@{Kitchen}!prepare\_dish@{prepare\_dish}|hyperpage}{32}
+\indexentry{prepare\_dish@{prepare\_dish}!Kitchen@{Kitchen}|hyperpage}{32}
+\indexentry{Catch::LazyExpression@{Catch::LazyExpression}|hyperpage}{32}
+\indexentry{Catch::Matchers::Impl::MatchAllOf$<$ ArgT $>$@{Catch::Matchers::Impl::MatchAllOf$<$ ArgT $>$}|hyperpage}{33}
+\indexentry{Catch::Matchers::Impl::MatchAnyOf$<$ ArgT $>$@{Catch::Matchers::Impl::MatchAnyOf$<$ ArgT $>$}|hyperpage}{34}
+\indexentry{Catch::Matchers::Impl::MatcherBase$<$ T $>$@{Catch::Matchers::Impl::MatcherBase$<$ T $>$}|hyperpage}{34}
+\indexentry{Catch::Matchers::Impl::MatcherMethod$<$ ObjectT $>$@{Catch::Matchers::Impl::MatcherMethod$<$ ObjectT $>$}|hyperpage}{35}
+\indexentry{Catch::Matchers::Impl::MatcherMethod$<$ PtrT $\ast$ $>$@{Catch::Matchers::Impl::MatcherMethod$<$ PtrT $\ast$ $>$}|hyperpage}{35}
+\indexentry{Catch::Matchers::Impl::MatcherUntypedBase@{Catch::Matchers::Impl::MatcherUntypedBase}|hyperpage}{36}
+\indexentry{Catch::MatchExpr$<$ ArgT, MatcherT $>$@{Catch::MatchExpr$<$ ArgT, MatcherT $>$}|hyperpage}{36}
+\indexentry{Catch::Matchers::Impl::MatchNotOf$<$ ArgT $>$@{Catch::Matchers::Impl::MatchNotOf$<$ ArgT $>$}|hyperpage}{37}
+\indexentry{Catch::MessageBuilder@{Catch::MessageBuilder}|hyperpage}{38}
+\indexentry{Catch::MessageInfo@{Catch::MessageInfo}|hyperpage}{38}
+\indexentry{Catch::MessageStream@{Catch::MessageStream}|hyperpage}{39}
+\indexentry{Catch::NameAndTags@{Catch::NameAndTags}|hyperpage}{39}
+\indexentry{Catch::NonCopyable@{Catch::NonCopyable}|hyperpage}{40}
+\indexentry{Catch::not\_this\_one@{Catch::not\_this\_one}|hyperpage}{40}
+\indexentry{Order@{Order}|hyperpage}{40}
+\indexentry{Catch::pluralise@{Catch::pluralise}|hyperpage}{41}
+\indexentry{Catch::Matchers::StdString::RegexMatcher@{Catch::Matchers::StdString::RegexMatcher}|hyperpage}{41}
+\indexentry{Catch::RegistrarForTagAliases@{Catch::RegistrarForTagAliases}|hyperpage}{42}
+\indexentry{Catch::ResultDisposition@{Catch::ResultDisposition}|hyperpage}{42}
+\indexentry{Catch::ResultWas@{Catch::ResultWas}|hyperpage}{42}
+\indexentry{Catch::ReusableStringStream@{Catch::ReusableStringStream}|hyperpage}{43}
+\indexentry{Catch::ScopedMessage@{Catch::ScopedMessage}|hyperpage}{43}
+\indexentry{Catch::Section@{Catch::Section}|hyperpage}{44}
+\indexentry{Catch::SectionEndInfo@{Catch::SectionEndInfo}|hyperpage}{44}
+\indexentry{Catch::SectionInfo@{Catch::SectionInfo}|hyperpage}{45}
+\indexentry{Catch::SourceLineInfo@{Catch::SourceLineInfo}|hyperpage}{45}
+\indexentry{Catch::Matchers::StdString::StartsWithMatcher@{Catch::Matchers::StdString::StartsWithMatcher}|hyperpage}{46}
+\indexentry{Catch::StreamEndStop@{Catch::StreamEndStop}|hyperpage}{46}
+\indexentry{Catch::StringMaker$<$ T, typename $>$@{Catch::StringMaker$<$ T, typename $>$}|hyperpage}{47}
+\indexentry{Catch::StringMaker$<$ bool $>$@{Catch::StringMaker$<$ bool $>$}|hyperpage}{47}
+\indexentry{Catch::StringMaker$<$ Catch::Detail::Approx $>$@{Catch::StringMaker$<$ Catch::Detail::Approx $>$}|hyperpage}{47}
+\indexentry{Catch::StringMaker$<$ char $\ast$ $>$@{Catch::StringMaker$<$ char $\ast$ $>$}|hyperpage}{48}
+\indexentry{Catch::StringMaker$<$ char $>$@{Catch::StringMaker$<$ char $>$}|hyperpage}{48}
+\indexentry{Catch::StringMaker$<$ char const $\ast$ $>$@{Catch::StringMaker$<$ char const $\ast$ $>$}|hyperpage}{48}
+\indexentry{Catch::StringMaker$<$ char\mbox{[}SZ\mbox{]}$>$@{Catch::StringMaker$<$ char[SZ]$>$}|hyperpage}{48}
+\indexentry{Catch::StringMaker$<$ double $>$@{Catch::StringMaker$<$ double $>$}|hyperpage}{49}
+\indexentry{Catch::StringMaker$<$ float $>$@{Catch::StringMaker$<$ float $>$}|hyperpage}{49}
+\indexentry{Catch::StringMaker$<$ int $>$@{Catch::StringMaker$<$ int $>$}|hyperpage}{49}
+\indexentry{Catch::StringMaker$<$ long $>$@{Catch::StringMaker$<$ long $>$}|hyperpage}{49}
+\indexentry{Catch::StringMaker$<$ long long $>$@{Catch::StringMaker$<$ long long $>$}|hyperpage}{50}
+\indexentry{Catch::StringMaker$<$ R C::$\ast$ $>$@{Catch::StringMaker$<$ R C::$\ast$ $>$}|hyperpage}{50}
+\indexentry{Catch::StringMaker$<$ R, typename std::enable\_if$<$ is\_range$<$ R $>$::value \&\&"!::Catch::Detail::IsStreamInsertable$<$ R $>$::value $>$::type $>$@{Catch::StringMaker$<$ R, typename std::enable\_if$<$ is\_range$<$ R $>$::value \&\&"!::Catch::Detail::IsStreamInsertable$<$ R $>$::value $>$::type $>$}|hyperpage}{50}
+\indexentry{Catch::StringMaker$<$ signed char $>$@{Catch::StringMaker$<$ signed char $>$}|hyperpage}{51}
+\indexentry{Catch::StringMaker$<$ signed char\mbox{[}SZ\mbox{]}$>$@{Catch::StringMaker$<$ signed char[SZ]$>$}|hyperpage}{51}
+\indexentry{Catch::StringMaker$<$ std::nullptr\_t $>$@{Catch::StringMaker$<$ std::nullptr\_t $>$}|hyperpage}{51}
+\indexentry{Catch::StringMaker$<$ std::string $>$@{Catch::StringMaker$<$ std::string $>$}|hyperpage}{51}
+\indexentry{Catch::StringMaker$<$ std::wstring $>$@{Catch::StringMaker$<$ std::wstring $>$}|hyperpage}{52}
+\indexentry{Catch::StringMaker$<$ T $\ast$ $>$@{Catch::StringMaker$<$ T $\ast$ $>$}|hyperpage}{52}
+\indexentry{Catch::StringMaker$<$ T\mbox{[}SZ\mbox{]}$>$@{Catch::StringMaker$<$ T[SZ]$>$}|hyperpage}{52}
+\indexentry{Catch::StringMaker$<$ unsigned char $>$@{Catch::StringMaker$<$ unsigned char $>$}|hyperpage}{52}
+\indexentry{Catch::StringMaker$<$ unsigned char\mbox{[}SZ\mbox{]}$>$@{Catch::StringMaker$<$ unsigned char[SZ]$>$}|hyperpage}{53}
+\indexentry{Catch::StringMaker$<$ unsigned int $>$@{Catch::StringMaker$<$ unsigned int $>$}|hyperpage}{53}
+\indexentry{Catch::StringMaker$<$ unsigned long $>$@{Catch::StringMaker$<$ unsigned long $>$}|hyperpage}{53}
+\indexentry{Catch::StringMaker$<$ unsigned long long $>$@{Catch::StringMaker$<$ unsigned long long $>$}|hyperpage}{53}
+\indexentry{Catch::StringMaker$<$ wchar\_t $\ast$ $>$@{Catch::StringMaker$<$ wchar\_t $\ast$ $>$}|hyperpage}{54}
+\indexentry{Catch::StringMaker$<$ wchar\_t const $\ast$ $>$@{Catch::StringMaker$<$ wchar\_t const $\ast$ $>$}|hyperpage}{54}
+\indexentry{Catch::Matchers::StdString::StringMatcherBase@{Catch::Matchers::StdString::StringMatcherBase}|hyperpage}{54}
+\indexentry{Catch::StringRef@{Catch::StringRef}|hyperpage}{55}
+\indexentry{SupplyRunner@{SupplyRunner}|hyperpage}{56}
+\indexentry{SupplyRunner@{SupplyRunner}!get\_ingredients@{get\_ingredients}|hyperpage}{56}
+\indexentry{get\_ingredients@{get\_ingredients}!SupplyRunner@{SupplyRunner}|hyperpage}{56}
+\indexentry{Catch::TestCase@{Catch::TestCase}|hyperpage}{57}
+\indexentry{Catch::TestCaseInfo@{Catch::TestCaseInfo}|hyperpage}{57}
+\indexentry{Catch::TestFailureException@{Catch::TestFailureException}|hyperpage}{58}
+\indexentry{Catch::TestInvokerAsMethod$<$ C $>$@{Catch::TestInvokerAsMethod$<$ C $>$}|hyperpage}{59}
+\indexentry{Catch::Timer@{Catch::Timer}|hyperpage}{59}
+\indexentry{Catch::Totals@{Catch::Totals}|hyperpage}{59}
+\indexentry{Catch::UnaryExpr$<$ LhsT $>$@{Catch::UnaryExpr$<$ LhsT $>$}|hyperpage}{60}
+\indexentry{Catch::Matchers::Vector::UnorderedEqualsMatcher$<$ T $>$@{Catch::Matchers::Vector::UnorderedEqualsMatcher$<$ T $>$}|hyperpage}{60}
+\indexentry{Catch::Matchers::Floating::WithinAbsMatcher@{Catch::Matchers::Floating::WithinAbsMatcher}|hyperpage}{61}
+\indexentry{Catch::Matchers::Floating::WithinUlpsMatcher@{Catch::Matchers::Floating::WithinUlpsMatcher}|hyperpage}{61}

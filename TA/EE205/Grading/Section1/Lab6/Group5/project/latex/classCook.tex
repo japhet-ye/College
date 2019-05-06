@@ -1,0 +1,56 @@
+\hypertarget{classCook}{}\doxysection{Cook Class Reference}
+\label{classCook}\index{Cook@{Cook}}
+
+
+Prepares dishes using a \mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} and a \mbox{\hyperlink{classKitchen}{Kitchen}}.  
+
+
+
+
+{\ttfamily \#include $<$Cook.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCook_a00483f9dc17e4f4af872efe2f1ba4d08}\label{classCook_a00483f9dc17e4f4af872efe2f1ba4d08}} 
+\mbox{\hyperlink{classCook_a00483f9dc17e4f4af872efe2f1ba4d08}{Cook}} (\mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} \&runner\+\_\+, \mbox{\hyperlink{classKitchen}{Kitchen}} \&kitchen\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classCook}{Cook}} with references to a \mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} and a \mbox{\hyperlink{classKitchen}{Kitchen}}, which it must use in the process of cooking. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCook_ab04c03a35f4ea5ca4913fc9d10cbf076}{prepare\+\_\+dish}} (std\+::stack$<$ \mbox{\hyperlink{classOrder}{Order}} $>$ \&orders, std\+::queue$<$ std\+::pair$<$ std\+::size\+\_\+t, Dish $>$$>$ \&finished\+\_\+dishes)
+\begin{DoxyCompactList}\small\item\em Prepares Dishes from a single order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Prepares dishes using a \mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} and a \mbox{\hyperlink{classKitchen}{Kitchen}}. 
+
+\begin{DoxyNote}{Note}
+Uses dependency injection with the constructor. 
+\end{DoxyNote}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCook_ab04c03a35f4ea5ca4913fc9d10cbf076}\label{classCook_ab04c03a35f4ea5ca4913fc9d10cbf076}} 
+\index{Cook@{Cook}!prepare\_dish@{prepare\_dish}}
+\index{prepare\_dish@{prepare\_dish}!Cook@{Cook}}
+\doxysubsubsection{\texorpdfstring{prepare\_dish()}{prepare\_dish()}}
+{\footnotesize\ttfamily void Cook\+::prepare\+\_\+dish (\begin{DoxyParamCaption}\item[{std\+::stack$<$ \mbox{\hyperlink{classOrder}{Order}} $>$ \&}]{orders,  }\item[{std\+::queue$<$ std\+::pair$<$ std\+::size\+\_\+t, Dish $>$$>$ \&}]{finished\+\_\+dishes }\end{DoxyParamCaption})}
+
+
+
+Prepares Dishes from a single order. 
+
+
+\begin{DoxyItemize}
+\item Take an \mbox{\hyperlink{classOrder}{Order}} from the stack.
+\item For each order item in the \mbox{\hyperlink{classOrder}{Order}},
+\begin{DoxyItemize}
+\item Lookup its required ingredients in the Recipe\+Book.
+\item Then, ask the \mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} to get the correct amount of ingredients.
+\item Put the vector of ingredients into an Ingredient\+Map.
+\item Send the Ingredient\+Map to the \mbox{\hyperlink{classKitchen}{Kitchen}} to have it turned into a dish.
+\item Put the finished Dish onto the queue, embedding it in a pair that also contains the \mbox{\hyperlink{classCustomer}{Customer}} ID of origin. 
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/Cook.\+hpp\end{DoxyCompactItemize}

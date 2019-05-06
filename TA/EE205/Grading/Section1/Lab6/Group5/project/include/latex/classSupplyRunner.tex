@@ -1,0 +1,51 @@
+\hypertarget{classSupplyRunner}{}\doxysection{Supply\+Runner Class Reference}
+\label{classSupplyRunner}\index{SupplyRunner@{SupplyRunner}}
+
+
+Gets Ingredients from the Storeroom.  
+
+
+
+
+{\ttfamily \#include $<$Supply\+Runner.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSupplyRunner_a246d70763f9ad22fcaf38c1df536f5e8}\label{classSupplyRunner_a246d70763f9ad22fcaf38c1df536f5e8}} 
+\mbox{\hyperlink{classSupplyRunner_a246d70763f9ad22fcaf38c1df536f5e8}{Supply\+Runner}} (Storeroom \&storeroom\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} with the Storeroom it gets its Ingredients from. \end{DoxyCompactList}\item 
+std\+::vector$<$ Ingredient $>$ \mbox{\hyperlink{classSupplyRunner_a1109296a38df463ec46a3402edcaeaa9}{get\+\_\+ingredients}} (Ingredient\+Map ingredients)
+\begin{DoxyCompactList}\small\item\em Gets ingredients from the Storeroom, if they exist, as a vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gets Ingredients from the Storeroom. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSupplyRunner_a1109296a38df463ec46a3402edcaeaa9}\label{classSupplyRunner_a1109296a38df463ec46a3402edcaeaa9}} 
+\index{SupplyRunner@{SupplyRunner}!get\_ingredients@{get\_ingredients}}
+\index{get\_ingredients@{get\_ingredients}!SupplyRunner@{SupplyRunner}}
+\doxysubsubsection{\texorpdfstring{get\_ingredients()}{get\_ingredients()}}
+{\footnotesize\ttfamily std\+::vector$<$Ingredient$>$ Supply\+Runner\+::get\+\_\+ingredients (\begin{DoxyParamCaption}\item[{Ingredient\+Map}]{ingredients }\end{DoxyParamCaption})}
+
+
+
+Gets ingredients from the Storeroom, if they exist, as a vector. 
+
+\begin{DoxyNote}{Note}
+Will remove ingredients from the storeroom if all the ingredeints asked for are all found in sufficient numbers.
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em const} & char$\ast$ if there are not enough ingredients in the Storeroom.\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyNote}{Note}
+Upon not finding enough ingredients to return, the \mbox{\hyperlink{classSupplyRunner}{Supply\+Runner}} will not modify the Storeroom in any way, including removing Ingredients from the Storeroom (decreasing the Ingredient count on the map). 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Supply\+Runner.\+hpp\end{DoxyCompactItemize}

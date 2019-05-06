@@ -1,0 +1,105 @@
+\hypertarget{classCustomer}{}\doxysection{Customer Class Reference}
+\label{classCustomer}\index{Customer@{Customer}}
+
+
+A class to represent restaurant customers.  
+
+
+
+
+{\ttfamily \#include $<$Customer.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCustomer_a349cb5f83b55b1160caf19467e10a6ca}\label{classCustomer_a349cb5f83b55b1160caf19467e10a6ca}} 
+\mbox{\hyperlink{classCustomer_a349cb5f83b55b1160caf19467e10a6ca}{Customer}} (double money\+\_\+, std\+::string order\+\_\+str\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classCustomer}{Customer}} with a set amount of money and a string to emit upon have its order taken as a string. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCustomer_a6a8c68d10129ca1a42874dd3bfa9373b}\label{classCustomer_a6a8c68d10129ca1a42874dd3bfa9373b}} 
+double \mbox{\hyperlink{classCustomer_a6a8c68d10129ca1a42874dd3bfa9373b}{get\+\_\+money}} () const
+\begin{DoxyCompactList}\small\item\em Gets the current amount of money on the \mbox{\hyperlink{classCustomer}{Customer}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCustomer_a3e92e2a432cae9c8b121d5b906183e12}\label{classCustomer_a3e92e2a432cae9c8b121d5b906183e12}} 
+bool \mbox{\hyperlink{classCustomer_a3e92e2a432cae9c8b121d5b906183e12}{is\+\_\+expelled}} () const
+\begin{DoxyCompactList}\small\item\em Returns whether the \mbox{\hyperlink{classCustomer}{Customer}} was expelled. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCustomer_a8ce88d5e5b4684de4617af486abb64e1}\label{classCustomer_a8ce88d5e5b4684de4617af486abb64e1}} 
+std\+::string \mbox{\hyperlink{classCustomer_a8ce88d5e5b4684de4617af486abb64e1}{take\+\_\+order}} ()
+\begin{DoxyCompactList}\small\item\em Returns the order\+\_\+str on the \mbox{\hyperlink{classCustomer}{Customer}}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCustomer_ad74454e151e09a88ec8111723a47fc54}{charge\+\_\+money}} (double amount)
+\begin{DoxyCompactList}\small\item\em Attempt to charge the amount of money from the \mbox{\hyperlink{classCustomer}{Customer}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCustomer_a3ce571575fde9a68d9918c7f21dc2180}{refund\+\_\+money}} (double amount)
+\begin{DoxyCompactList}\small\item\em Refunds money back to the customer. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCustomer_a6e3009563c0a951e84456b9d74347b46}{get\+\_\+order}} () const
+\begin{DoxyCompactList}\small\item\em Returns the order string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCustomer_a80fb88d28103c5976202ef144a85788c}{expel}} ()
+\begin{DoxyCompactList}\small\item\em Expels the \mbox{\hyperlink{classCustomer}{Customer}} from the restaurant. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCustomer_af6fb6d053ea9db137d5bf0f55fe34f13}\label{classCustomer_af6fb6d053ea9db137d5bf0f55fe34f13}} 
+std\+::ostream \& \mbox{\hyperlink{classCustomer_af6fb6d053ea9db137d5bf0f55fe34f13}{operator$<$$<$}} (std\+::ostream \&lhs, const \mbox{\hyperlink{classCustomer}{Customer}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Prints out a string representation of the \mbox{\hyperlink{classCustomer}{Customer}}\textquotesingle{}s fields. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class to represent restaurant customers. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCustomer_ad74454e151e09a88ec8111723a47fc54}\label{classCustomer_ad74454e151e09a88ec8111723a47fc54}} 
+\index{Customer@{Customer}!charge\_money@{charge\_money}}
+\index{charge\_money@{charge\_money}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{charge\_money()}{charge\_money()}}
+{\footnotesize\ttfamily double Customer\+::charge\+\_\+money (\begin{DoxyParamCaption}\item[{double}]{amount }\end{DoxyParamCaption})}
+
+
+
+Attempt to charge the amount of money from the \mbox{\hyperlink{classCustomer}{Customer}}. 
+
+\begin{DoxyNote}{Note}
+If the \mbox{\hyperlink{classCustomer}{Customer}} doesn\textquotesingle{}t have enough money, it will simply return its current money amount and drain its money to 0. 
+\end{DoxyNote}
+\mbox{\Hypertarget{classCustomer_a80fb88d28103c5976202ef144a85788c}\label{classCustomer_a80fb88d28103c5976202ef144a85788c}} 
+\index{Customer@{Customer}!expel@{expel}}
+\index{expel@{expel}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{expel()}{expel()}}
+{\footnotesize\ttfamily void Customer\+::expel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Expels the \mbox{\hyperlink{classCustomer}{Customer}} from the restaurant. 
+
+\begin{DoxyNote}{Note}
+For the purposes of testing, this is attached to the {\ttfamily extern std\+::size\+\_\+t expelled\+\_\+count} variable.
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000002}{Todo}}]Revise the design of expellation and the unit test cases so expellation can be unit tested without this global variable counter hack. \end{DoxyRefDesc}
+\mbox{\Hypertarget{classCustomer_a6e3009563c0a951e84456b9d74347b46}\label{classCustomer_a6e3009563c0a951e84456b9d74347b46}} 
+\index{Customer@{Customer}!get\_order@{get\_order}}
+\index{get\_order@{get\_order}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{get\_order()}{get\_order()}}
+{\footnotesize\ttfamily std\+::string Customer\+::get\+\_\+order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns the order string. 
+
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{classCustomer_a8ce88d5e5b4684de4617af486abb64e1}{take\+\_\+order()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classCustomer_a3ce571575fde9a68d9918c7f21dc2180}\label{classCustomer_a3ce571575fde9a68d9918c7f21dc2180}} 
+\index{Customer@{Customer}!refund\_money@{refund\_money}}
+\index{refund\_money@{refund\_money}!Customer@{Customer}}
+\doxysubsubsection{\texorpdfstring{refund\_money()}{refund\_money()}}
+{\footnotesize\ttfamily void Customer\+::refund\+\_\+money (\begin{DoxyParamCaption}\item[{double}]{amount }\end{DoxyParamCaption})}
+
+
+
+Refunds money back to the customer. 
+
+\begin{DoxyNote}{Note}
+There are no bounds checking on this code, so you can refund negative money to charge money as well. Please do not do this; this is not how this member function is supposed to be used. 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Customer.\+hpp\end{DoxyCompactItemize}

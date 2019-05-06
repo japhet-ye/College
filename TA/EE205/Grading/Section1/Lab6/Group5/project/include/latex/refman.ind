@@ -1,0 +1,54 @@
+\begin{theindex}
+
+  \item {Cashier}, \hyperpage{5}
+    \subitem {serve\_customer}, \hyperpage{6}
+  \item {charge\_money}
+    \subitem {Customer}, \hyperpage{8}
+  \item {Cook}, \hyperpage{6}
+    \subitem {prepare\_dish}, \hyperpage{7}
+  \item {Customer}, \hyperpage{7}
+    \subitem {charge\_money}, \hyperpage{8}
+    \subitem {expel}, \hyperpage{8}
+    \subitem {get\_order}, \hyperpage{8}
+    \subitem {refund\_money}, \hyperpage{8}
+
+  \indexspace
+
+  \item {expel}
+    \subitem {Customer}, \hyperpage{8}
+
+  \indexspace
+
+  \item {get\_ingredients}
+    \subitem {SupplyRunner}, \hyperpage{11}
+  \item {get\_order}
+    \subitem {Customer}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Kitchen}, \hyperpage{9}
+    \subitem {prepare\_dish}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Order}, \hyperpage{10}
+
+  \indexspace
+
+  \item {prepare\_dish}
+    \subitem {Cook}, \hyperpage{7}
+    \subitem {Kitchen}, \hyperpage{9}
+
+  \indexspace
+
+  \item {refund\_money}
+    \subitem {Customer}, \hyperpage{8}
+
+  \indexspace
+
+  \item {serve\_customer}
+    \subitem {Cashier}, \hyperpage{6}
+  \item {SupplyRunner}, \hyperpage{10}
+    \subitem {get\_ingredients}, \hyperpage{11}
+
+\end{theindex}
